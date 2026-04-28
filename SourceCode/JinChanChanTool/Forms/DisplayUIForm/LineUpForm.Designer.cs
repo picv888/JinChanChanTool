@@ -49,7 +49,7 @@ namespace JinChanChanTool.Forms
             flowLayoutPanel_阵容展示.Margin = new Padding(0);
             flowLayoutPanel_阵容展示.Name = "flowLayoutPanel1";
             flowLayoutPanel_阵容展示.Padding = new Padding(2);
-            flowLayoutPanel_阵容展示.Size = new Size(426, 64);
+            flowLayoutPanel_阵容展示.Size = new Size(1100, 64);
             flowLayoutPanel_阵容展示.TabIndex = 4;
             flowLayoutPanel_阵容展示.WrapContents = false;
             // 
@@ -124,7 +124,7 @@ namespace JinChanChanTool.Forms
             hexagonBoard.BackColor = Color.FromArgb(1, 1, 1);
             hexagonBoard.Location = new Point(2, 93);
             hexagonBoard.Name = "hexagonBoard";
-            hexagonBoard.Size = new Size(319, 150);
+            hexagonBoard.Size = new Size(1100, 150);
             hexagonBoard.TabIndex = 15;
             hexagonBoard.Visible = false;
             //
@@ -133,7 +133,7 @@ namespace JinChanChanTool.Forms
             benchPanel.BackColor = Color.FromArgb(1, 1, 1);
             benchPanel.Location = new Point(2, 293);
             benchPanel.Name = "benchPanel";
-            benchPanel.Size = new Size(319, 34);
+            benchPanel.Size = new Size(1100, 34);
             benchPanel.TabIndex = 16;
             benchPanel.Visible = false;
             // 
@@ -143,7 +143,7 @@ namespace JinChanChanTool.Forms
             flowLayoutPanel_装备散件展示.BackColor = Color.FromArgb(1, 1, 1);
             flowLayoutPanel_装备散件展示.Location = new Point(480, 93);
             flowLayoutPanel_装备散件展示.Name = "componentPanel";
-            flowLayoutPanel_装备散件展示.Size = new Size(150, 250);
+            flowLayoutPanel_装备散件展示.Size = new Size(1100, 250);
             flowLayoutPanel_装备散件展示.TabIndex = 17;
             flowLayoutPanel_装备散件展示.Visible = false;
             // 
@@ -152,7 +152,7 @@ namespace JinChanChanTool.Forms
             AutoScaleDimensions = new SizeF(96F, 96F);
             AutoScaleMode = AutoScaleMode.Dpi;
             BackColor = Color.FromArgb(1, 1, 1);
-            ClientSize = new Size(430, 95);
+            ClientSize = new Size(1100, 95);
             Controls.Add(flowLayoutPanel_装备散件展示);
             Controls.Add(benchPanel);
             Controls.Add(hexagonBoard);

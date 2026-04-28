@@ -1,4 +1,4 @@
-using JinChanChanTool.DataClass;
+﻿using JinChanChanTool.DataClass;
 using JinChanChanTool.DIYComponents;
 using JinChanChanTool.Forms;
 using JinChanChanTool.Forms.DisplayUIForm;
@@ -152,9 +152,26 @@ namespace JinChanChanTool
             _automationService = new AutomationService(_windowInteractionService, _coordService);
             #endregion
 
+            this.Resize += MainForm_Resize;
+
             // 应用本地化
             ApplyLocalization();
         }
+
+        private void MainForm_Resize(object? sender, EventArgs e)
+        {
+            if (this.WindowState == FormWindowState.Minimized)
+            {
+                StatusOverlayForm.Instance.Visible = false;
+                LineUpForm.Instance.Visible = false;
+            }
+            else if (this.WindowState == FormWindowState.Normal)
+            {
+                StatusOverlayForm.Instance.Visible = true;
+                LineUpForm.Instance.Visible = true;
+            }
+        }
+
         private async void Form1_Load(object sender, EventArgs e)
         {
             #region 初始化赛季选择下拉框
@@ -708,8 +725,6 @@ namespace JinChanChanTool
             {
                 // 如果窗口最小化，则还原
                 this.WindowState = FormWindowState.Normal;
-                this.TopMost = false;
-                this.TopMost = true;
                 this.Show();
             }
             else
@@ -1604,7 +1619,7 @@ namespace JinChanChanTool
             {
                 button_变阵3.Focus();
             }
-           
+
 
             LineUpForm.Instance.更新棋盘显示(selectedIndex);
         }

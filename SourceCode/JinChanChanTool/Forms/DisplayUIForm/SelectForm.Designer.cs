@@ -39,7 +39,7 @@ namespace JinChanChanTool.Forms
             panel_Background.Location = new Point(0, 0);
             panel_Background.Margin = new Padding(0);
             panel_Background.Name = "panel_Background";
-            panel_Background.Size = new Size(608, 182);
+            panel_Background.Size = new Size(604, 341);
             panel_Background.TabIndex = 5;
             // 
             // SelectForm
@@ -47,7 +47,7 @@ namespace JinChanChanTool.Forms
             AutoScaleDimensions = new SizeF(96F, 96F);
             AutoScaleMode = AutoScaleMode.Dpi;
             BackColor = Color.Magenta;
-            ClientSize = new Size(611, 195);
+            ClientSize = new Size(613, 350);
             Controls.Add(panel_Background);
             FormBorderStyle = FormBorderStyle.None;
             Name = "SelectForm";

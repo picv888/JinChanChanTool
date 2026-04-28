@@ -1,4 +1,4 @@
-using JinChanChanTool.Forms;
+﻿using JinChanChanTool.Forms;
 using JinChanChanTool.Services.DataServices;
 using JinChanChanTool.Services.DataServices.Interface;
 using JinChanChanTool.Services.LineupCrawling;
@@ -19,7 +19,7 @@ namespace JinChanChanTool
 
             
             // 最大选择英雄数量
-            const int MaxCountOfHero = 10;
+            const int MaxCountOfHero = 25;
 
             //创建并加载用户应用设置服务
             IManualSettingsService _iManualSettingsService = new ManualSettingsService();

@@ -96,7 +96,7 @@ namespace JinChanChanTool
             panel_子阵容展示区背景.Margin = new Padding(0);
             panel_子阵容展示区背景.Name = "panel_子阵容展示区背景";
             panel_子阵容展示区背景.Padding = new Padding(3);
-            panel_子阵容展示区背景.Size = new Size(394, 185);
+            panel_子阵容展示区背景.Size = new Size(397, 395);
             panel_子阵容展示区背景.TabIndex = 10;
             // 
             // button_变阵3
@@ -150,7 +150,7 @@ namespace JinChanChanTool
             flowLayoutPanel_子阵容展示.Location = new Point(5, 28);
             flowLayoutPanel_子阵容展示.Margin = new Padding(3, 3, 3, 7);
             flowLayoutPanel_子阵容展示.Name = "flowLayoutPanel_子阵容展示";
-            flowLayoutPanel_子阵容展示.Size = new Size(384, 152);
+            flowLayoutPanel_子阵容展示.Size = new Size(380, 365);
             flowLayoutPanel_子阵容展示.TabIndex = 0;
             // 
             // tabControl_英雄选择容器
@@ -210,7 +210,7 @@ namespace JinChanChanTool
             menuStrip_主窗口菜单.Location = new Point(0, 0);
             menuStrip_主窗口菜单.Name = "menuStrip_主窗口菜单";
             menuStrip_主窗口菜单.Padding = new Padding(0, 2, 0, 2);
-            menuStrip_主窗口菜单.Size = new Size(404, 25);
+            menuStrip_主窗口菜单.Size = new Size(407, 25);
             menuStrip_主窗口菜单.TabIndex = 5;
             menuStrip_主窗口菜单.Text = "菜单栏1";
             // 
@@ -285,7 +285,7 @@ namespace JinChanChanTool
             panel_用户区背景.Location = new Point(0, 25);
             panel_用户区背景.Margin = new Padding(0);
             panel_用户区背景.Name = "panel_用户区背景";
-            panel_用户区背景.Size = new Size(404, 633);
+            panel_用户区背景.Size = new Size(407, 900);
             panel_用户区背景.TabIndex = 5;
             // 
             // roundedButton_导入
@@ -564,7 +564,7 @@ namespace JinChanChanTool
             panel_窗体总背景.Margin = new Padding(0);
             panel_窗体总背景.Name = "panel_窗体总背景";
             panel_窗体总背景.Padding = new Padding(3, 3, 4, 4);
-            panel_窗体总背景.Size = new Size(410, 670);
+            panel_窗体总背景.Size = new Size(410, 870);
             panel_窗体总背景.TabIndex = 6;
             // 
             // panel_窗体副背景
@@ -576,7 +576,7 @@ namespace JinChanChanTool
             panel_窗体副背景.Location = new Point(3, 3);
             panel_窗体副背景.Margin = new Padding(0);
             panel_窗体副背景.Name = "panel_窗体副背景";
-            panel_窗体副背景.Size = new Size(403, 663);
+            panel_窗体副背景.Size = new Size(403, 870);
             panel_窗体副背景.TabIndex = 6;
             // 
             // panel_标题栏背景
@@ -642,14 +642,13 @@ namespace JinChanChanTool
             // 
             AutoScaleDimensions = new SizeF(96F, 96F);
             AutoScaleMode = AutoScaleMode.Dpi;
-            ClientSize = new Size(410, 670);
+            ClientSize = new Size(410, 880);
             Controls.Add(panel_窗体总背景);
             FormBorderStyle = FormBorderStyle.None;
             Icon = (Icon)resources.GetObject("$this.Icon");
             MainMenuStrip = menuStrip_主窗口菜单;
             Name = "MainForm";
             Text = " JinChanChanTool";
-            TopMost = true;
             Load += Form1_Load;
             panel_子阵容展示区背景.ResumeLayout(false);
             menuStrip_主窗口菜单.ResumeLayout(false);
